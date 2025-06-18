@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "CZ",
+    "label": "Ph.D student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "NULL",
+    "phone": "(+86) NULL",
+    "url": "https://cz-cz.github.io/",
+    "summary": "Ph.D in process, marjor in Control Science and Engineering, School of Electronic Information and Electrical Engineering, SHANGHAI JIAO TONG UNIVERSITY ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
