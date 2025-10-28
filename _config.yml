@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: cz # the website title (if blank, full name will be used instead)
+first_name: cao
+middle_name: .
+last_name: zhen
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  cz personal cv page
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -191,6 +191,24 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+#######not used part
+  - _posts/
+  - _pages/blog.md
+  - _news
+  - _projects 
+  - _pages/projects.md
+  - _bibliography
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _includes/repository/ 
+  - 
+  -
+  - 
+  -
+  - 
+  -
+  - 
+  -  
 keep_files:
   - CNAME
   - .nojekyll
