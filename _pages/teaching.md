@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: 预留
+description: 预留页面
 nav: true
 nav_order: 2
 ---

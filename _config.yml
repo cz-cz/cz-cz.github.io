@@ -194,6 +194,9 @@ exclude:
 #######not used part
   - _posts/
   - _pages/blog.md
+  - _pages\teaching.md
+  - _pages\dropdown.md
+  - _pages\profiles.md
   - _news
   - _projects 
   - _pages/projects.md
@@ -201,14 +204,6 @@ exclude:
   - _pages/publications.md
   - _pages/repositories.md
   - _includes/repository/ 
-  - _pages\teaching.md
-  - _pages\dropdown.md
-  - _pages\profiles.md
-  -
-  - 
-  -
-  - 
-  -  
 keep_files:
   - CNAME
   - .nojekyll

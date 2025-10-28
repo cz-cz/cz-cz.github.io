@@ -1,200 +1,94 @@
 {
-  "basics": {
-    "name": "CZ",
+  "基本信息-basics": {
+    "name": "caozhen",
     "label": "Ph.D student",
-    "image": "",
-    "email": "NULL",
+    "image": "prof_pic.jpg",
+    "email": "1529693914@qq.com",
     "phone": "(+86) NULL",
     "url": "https://cz-cz.github.io/",
     "summary": "Ph.D in process, marjor in Control Science and Engineering, School of Electronic Information and Electrical Engineering, SHANGHAI JIAO TONG UNIVERSITY ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "address": "No.800, Dongchuan Road",
+      "postalCode": "200240",
+      "city": "shanghai",
+      "nation": "china"
+    }
   },
-  "work": [
+  "工作经历-work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "浙江大华技术股份有限公司",
+      "position": "智能算法工程师",
+      "startDate": "2022-04-01",
+      "endDate": "2024-07-01",
+      "summary": "主要负责零跑汽车C11、C01等车型的ADAS(高级驾驶辅助系统)中融合定位模块（RTK、IMU、轮速计、高精地图、视觉定位）的功能开发量产。同时进行APS (泊车辅助系统) 算法开发及仿真。",
+      "highlights": ["车载融合定位"]
+    },
+    {
+      "name": "一汽（南京）科技开发有限公司",
+      "position": "泊车算法工程师",
+      "startDate": "2024-07-01",
+      "endDate": "2025-02-01",
+      "summary": "主要负责红旗EH7车型记忆泊车（HPA）中融合定位模块开发与可视化工具开发，红旗国雅车型行车定位模块开发。",
+      "highlights": ["自主代客泊车"]
     }
   ],
-  "volunteer": [
+  "教育背景-education": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "哈尔滨工程大学",
+      "location": "黑龙江，哈尔滨",
+      "area": "自动化",
+      "studyType": "本科",
+      "startDate": "2015-09-01",
+      "endDate": "2019-07-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["自动控制原理"]
+    },
+    {
+      "institution": "哈尔滨工程大学",
+      "location": "黑龙江，哈尔滨",
+      "area": "控制工程",
+      "studyType": "硕士研究生",
+      "startDate": "2019-09-01",
+      "endDate": "2022-04-01",
+      "score": "10",
+      "courses": ["现代控制理论"]
     }
   ],
-  "awards": [
+  "发表论文-publications": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "基于实例分割的动态环境下视觉SLAM算法研究",
+      "publisher": "哈尔滨工程大学",
+      "releaseDate": "2022-01-01",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=YFFVSRMG_GHLBMf0EJCZ70C1g55EYp-GDBCZmCS8jw9oziuleuJM_Q18_Krmi0tMjpUunivABBmmW1x9nAINN1HlSGLReJ4LDZmTHKzV_KAHKApYrebvX9idZXz2dO3_XZPK-ToPR3pQpr34JK4xKfZzrzXe-saABLqiiNh_JrE=&uniplatform=NZKPT",
+      "summary": "同时定位与地图构建(Simultaneous Localization And Mapping,SLAM)是移动机器人领域研究的热门问题。它的两个主要目标是定位和建图。定位即确定机器人自身的状态,包含位置,姿态等信息;建图则是构建机器人周边的环境信息描述。SLAM系统可以使用多种传感器,比如激光雷达、相机、IMU、GPS等等。本文讨论的是视觉SLAM即主要使用相机来解决定位和建图问题。本文主要研究基于实例分割的动态环境下视觉SLAM算法。由于动态环境中的运动物体会对前端的视觉里程计产生明显的干扰,因此运动物体是重点处理的对象。而利用实例分割结果能够分离动静态物体,增强建图和回环检测部分效果。因此本文重点利用实例分割在视觉里程计、建图和回环检测部分做针对性的增强。 在视觉里程计中,如果在位姿估计流程中仅使用静态物体及环境的特征点进行计算,那么位姿估计的精度就会有明显的提升。本文基于上述的考虑,在SLAM系统中引入实例分割模块以获得物体信息。为了将实例分割算法作为一个独立模块运行,本文设计了实例分割与SLAM程序之间的数据传输方式,基于HTTP协议实现实时、独立的运行。为了处理因为人的动作影响而发生运动的半静态物体,设计一种人与物体连接检测算法进行检测。动静态物体分类完成后将从动态物体上提取到的特征点删除,避免它们进入位姿计算的流程,明显提高位姿估计的精度,轨迹不再受运动物体的影响。 在建图环节中,动态物体的信息被反复添加到点云地图中,严重影响地图质量,因此本文利用前端得到的动静态物体分类结果在地图中消除动态物体的信息,并相应生成八叉树地图。因为实例分割得到的物体遮罩信息在时间上没有得到关联,无法对动态物体的运动轨迹进行描述,所以本文设计一种相邻两帧间物体遮罩匹配算法,对相邻帧之间的物体进行图像相似度计算,将它们从时间上关联起来。此外对物体的三维空间坐标计算进行了推导,最终将动态物体的轨迹以2D平面地图的形式直观展示。 在回环检测环节,传统的基于特征点的词袋模型仅使用像素层级的信息,没有利用物体层级的语义信息,可能发生错误回环。本文设计一种基于实例分割结果的回环检测算法,将实例分割结果抽象成语义图结构描述,并计算相应的描述子和匹配对,进行二次回环验证,确认是否真正发生了回环。 最后,通过数据集和自行采集数据验证算法效果。实验结果表明,引入实例分割在动态环境中明显提高位姿估计精度。分割结果在建图和回环检测部分得到进一步利用,构建较好的点云地图和动态物体轨迹地图,利用语义图结构描述成功验证回环。"
+    },
+    {
+      "name": "基于环形特征匹配的双目视觉里程计",
+      "publisher": "光学学报",
+      "releaseDate": "2021-08-10",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=YFFVSRMG_GG4z2JFZv8IQP84ywnQEA4VC9G-ZrMBkb601tyDHRnadMF1XIzH64xHNxhKtaZtm7oc6dNg7xJ4jWtegruXDSblWXF9iX_RNmhKC-riUWVVc5vQ4tGVZLcbgrI5iEjJaEpBF82hajnlOu_4c3SeA7HO7hN3Co7Yee8=&uniplatform=NZKPT",
+      "summary": "针对视觉里程计中采用基本特征点匹配算法易出现误匹配现象,提出一种结合双向光流法的特征点环形匹配算法。该算法将双目图像与前后帧图像组成环形,前后帧图像采用双向金字塔光流法跟踪特征点,并剔除错误的特征点追踪结果。基本特征匹配算法通常采用快速最近邻匹配(FLANN)算法,但其结果包含很多误匹配的点对。本文提出的匹配算法不仅能剔除误匹配特征点,还能使特征点均匀分布于图像上。随后采用基于3D-2D点的P3P(Perspective-3-Point)算法结合RANSAC(Random Sample Consensus)得到初始位姿估计结果,再利用g2o(General Graph Optimization)库对位姿估计结果进一步优化。定位实验结果表明,结合双向光流法的特征点环形匹配算法具有更高的定位精度。"
+    },
+    {
+      "name": "一种基于线特征的RGB-D视觉里程计算法",
+      "publisher": "中国惯性技术学报",
+      "releaseDate": "2021-06-15",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=YFFVSRMG_GFP8pj--Nt-zxmFdiXtOG30dBc6mhhp1dKW0kdoPTpL9isFnZk_Rn2ep-rYzxKzV7N049GgRD8BX-00T13wDS4lff9Yb4NJTHoMK4KPOcJoNihQmxVdsJbXm6Iss6joGRmzpINWPP60QVnBQ4GCD7bY-4clct1w-38=&uniplatform=NZKPT",
+      "summary": "基于特征点的视觉里程计在点特征稀少的环境下难以得到足够的匹配点对,从而导致相机运动估计失败,因而提出采集人造环境中特征明显的边缘作为线特征来提高视觉里程计算法的稳定性。采用深度相机获取的RGB图像进行LSD线特征提取,推断线特征对应的图像位置的深度信息,避免深度缺失,将线段上的2D点反投影为3D点,拟合3D点为三维直线,利用线特征匹配关系进行位姿估计。此外在位姿优化部分进行改进,利用拟合直线过程中的最佳过点,以及重投影的线段与观测线段的角度误差信息,推导了误差关于位姿扰动的雅克比矩阵,在图优化时利用重投影误差优化相机位姿,拓展了传统的优化方法。基于TUM缺少点特征的数据集的实验结果表明所提出的线特征视觉里程计方法相比ORB-SLAM2的轨迹估计精度提高63%,并能完整地跟踪轨迹。实验结果表明所提出算法在欠特征点环境中表现出了较高的精度和稳定性。"
     }
   ],
-  "certificates": [
+  "研究兴趣-interest": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
+      "name": "SLAM",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "视觉",
+        "激光",
+        "GNSS",
+        "融合定位",
+        "Nerf",
+        "3DGS"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
